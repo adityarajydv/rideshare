@@ -4,6 +4,9 @@ export default function AboutScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>About screen</Text>
+      <View className='items-center justify-center bg-white'>
+      <Text>NativeWing config</Text>
+    </View>
     </View>
   );
 }
